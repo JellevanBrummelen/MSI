@@ -664,6 +664,14 @@ ul{
     object-fit: cover;
 }
 
+.eindborder{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+	font-size: 1.6vh;
+    display: flex;
+}
+
 /* Style buttons */
 .btn {
     background-color: rgb(13, 16, 49);
