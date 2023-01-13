@@ -315,7 +315,7 @@
             <!-- Document viewer -->
                 <p align="center">
                 <a href="files/Feedback.pdf">
-                <button class="btn" style="width:95%"><i class="fa fa-download"></i> View document</button>
+                <button class="btn" style="width:95%"><i class="fa fa-download"></i> Bekijk document</button>
                 </a>
                 </p>
            <br>
@@ -355,7 +355,7 @@
            dat aan de onderzijde van de staalplaatjes gebonden wordt.
            <br>
            <br>Ook kregen we na lang wachten de 3D-bestanden en de offerte binnen voor de geleiding. Deze offerte viel zwaar tegen. We zijn direct in
-           spoedberaad gegaan met de odprachtgever omdat we voor een belangrijke keuze stonden: betalen, aanpassen of een alternatief zoeken. Uiteindelijk
+           spoedberaad gegaan met de opdrachtgever omdat we voor een belangrijke keuze stonden: betalen, aanpassen of een alternatief zoeken. Uiteindelijk
            hebben we besloten dat we ons aanpassen, we verlagen het draagvermogen van het afnamesysteem zodat het systeem goedkoper wordt. Ook zijn we op 
            zoek gegaan naar een alternatief, hiervoor zijn 2 bedrijven aangeschreven.
            <br>
@@ -432,13 +432,88 @@
 
         <!--Tekst-->
         <div class="myT1">
-           Empty...
+            Deze week heb ik gewerkt aan de presentatie voor de seminar. Ook zijn we bij Heel Metaal geweest en hebben ik en Robert de magneetarm grotendeels geassembleerd.
+            Hiervoor moesten we zelf nog de handen uit de mouwen steken omdat niet alle onderdelen volledig afgewerkt waren. Zo ontbraken bij alle onderdelen 
+            het schroefdraad en moesten de kanten nog afgewerkt worden. Een deel van de onderdelen waren nog niet klaar, deze zijn aan het begin van week 3 wel gereed. We gaan 
+            dan aan het begin van de week terug naar Heel Metaal om de overige onderdelen te monteren.
            <br>
            <br>
         </div>  
         </section>
     <br>
     <br>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="images/buislaser.jpg" style="width:100%">
+          <div class="text">Adige LT8.20 Buislaser</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img src="images/Plaatje.JPG" style="width:100%">
+          <div class="text">Overzichtsfoto in SolidWorks</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <img src="images/Afnamesysteem LT8 1.JPG" style="width:100%">
+          <div class="text">Afnamesysteem</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="images/Aandrukcilinder + paaltjes.JPG" style="width:100%">
+            <div class="text">Aandrukcilinder en paaltjes</div>
+          </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 6</div>
+          <img src="images/magneetarm.JPG" style="width:100%">
+          <div class="text">Magneetarm</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="images/magneetarm cut.JPG" style="width:100%">
+            <div class="text">Magneetarm binnenzijde</div>
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span>
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span>  
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+        </script>
 
 
      <!--Eindborder-->
