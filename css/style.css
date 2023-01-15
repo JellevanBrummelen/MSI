@@ -504,6 +504,11 @@ body {
     padding: 1%;
 }
 
+.column7 {
+    flex: 25%;
+    padding: 1%;
+}
+
 .overlay-slide {
 	position: relative;
     overflow: hidden;
